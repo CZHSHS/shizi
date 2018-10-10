@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "ShiPuViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    ViewController * view = [[ViewController alloc]init];
+    ShiPuViewController * view = [[ShiPuViewController alloc]init];
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:view];
+    _window.rootViewController = nav;
+    _window.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 

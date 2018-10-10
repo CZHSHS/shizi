@@ -15,6 +15,22 @@
 		4478943D216C5CD8002CB3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478943C216C5CD8002CB3C4 /* main.m */; };
 		44789447216C5CD9002CB3C4 /* menuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789446216C5CD9002CB3C4 /* menuTests.m */; };
 		44789452216C5CD9002CB3C4 /* menuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789451216C5CD9002CB3C4 /* menuUITests.m */; };
+		44789471216C7C1A002CB3C4 /* YQNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478946F216C7C1A002CB3C4 /* YQNetworkTools.m */; };
+		44789474216C8122002CB3C4 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789473216C8122002CB3C4 /* HttpTool.m */; };
+		44789479216C846A002CB3C4 /* CategoryInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789478216C846A002CB3C4 /* CategoryInfoModel.m */; };
+		4478947F216C8A6E002CB3C4 /* MenuKindsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478947E216C8A6E002CB3C4 /* MenuKindsModel.m */; };
+		44789483216C8D18002CB3C4 /* MenuKindsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789482216C8D18002CB3C4 /* MenuKindsCollectionViewCell.m */; };
+		44789486216C975A002CB3C4 /* kindsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789485216C975A002CB3C4 /* kindsDetailViewController.m */; };
+		44789489216C999A002CB3C4 /* KindDetailImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789488216C999A002CB3C4 /* KindDetailImageTableViewCell.m */; };
+		4478948C216C9B23002CB3C4 /* KindDetailTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478948B216C9B23002CB3C4 /* KindDetailTextTableViewCell.m */; };
+		4478948F216C9CFE002CB3C4 /* CZHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478948E216C9CFE002CB3C4 /* CZHTool.m */; };
+		44789492216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789491216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.m */; };
+		44789495216D9895002CB3C4 /* ShiPuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789494216D9895002CB3C4 /* ShiPuViewController.m */; };
+		44789498216D999B002CB3C4 /* ShiPuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789497216D999B002CB3C4 /* ShiPuTableViewCell.m */; };
+		4478949B216D9ABF002CB3C4 /* ShiPuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478949A216D9ABF002CB3C4 /* ShiPuModel.m */; };
+		447894A1216DA31A002CB3C4 /* ShiPuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447894A0216DA31A002CB3C4 /* ShiPuDetailViewController.m */; };
+		447894A3216DAEA9002CB3C4 /* zanwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 447894A2216DAEA9002CB3C4 /* zanwu.png */; };
+		EB301CD83F01FBC86F85EBED /* libPods-menu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D83DB8A0A469EC88465E8 /* libPods-menu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,39 @@
 		4478944D216C5CD9002CB3C4 /* menuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44789451216C5CD9002CB3C4 /* menuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuUITests.m; sourceTree = "<group>"; };
 		44789453216C5CD9002CB3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4478946F216C7C1A002CB3C4 /* YQNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQNetworkTools.m; sourceTree = "<group>"; };
+		44789470216C7C1A002CB3C4 /* YQNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQNetworkTools.h; sourceTree = "<group>"; };
+		44789472216C8122002CB3C4 /* HttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		44789473216C8122002CB3C4 /* HttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		44789476216C8356002CB3C4 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		44789477216C846A002CB3C4 /* CategoryInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryInfoModel.h; sourceTree = "<group>"; };
+		44789478216C846A002CB3C4 /* CategoryInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryInfoModel.m; sourceTree = "<group>"; };
+		4478947D216C8A6E002CB3C4 /* MenuKindsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuKindsModel.h; sourceTree = "<group>"; };
+		4478947E216C8A6E002CB3C4 /* MenuKindsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuKindsModel.m; sourceTree = "<group>"; };
+		44789481216C8D18002CB3C4 /* MenuKindsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuKindsCollectionViewCell.h; sourceTree = "<group>"; };
+		44789482216C8D18002CB3C4 /* MenuKindsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuKindsCollectionViewCell.m; sourceTree = "<group>"; };
+		44789484216C975A002CB3C4 /* kindsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kindsDetailViewController.h; sourceTree = "<group>"; };
+		44789485216C975A002CB3C4 /* kindsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kindsDetailViewController.m; sourceTree = "<group>"; };
+		44789487216C999A002CB3C4 /* KindDetailImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KindDetailImageTableViewCell.h; sourceTree = "<group>"; };
+		44789488216C999A002CB3C4 /* KindDetailImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindDetailImageTableViewCell.m; sourceTree = "<group>"; };
+		4478948A216C9B23002CB3C4 /* KindDetailTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KindDetailTextTableViewCell.h; sourceTree = "<group>"; };
+		4478948B216C9B23002CB3C4 /* KindDetailTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindDetailTextTableViewCell.m; sourceTree = "<group>"; };
+		4478948D216C9CFE002CB3C4 /* CZHTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZHTool.h; sourceTree = "<group>"; };
+		4478948E216C9CFE002CB3C4 /* CZHTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZHTool.m; sourceTree = "<group>"; };
+		44789490216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KindDetailTextImageTableViewCell.h; sourceTree = "<group>"; };
+		44789491216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindDetailTextImageTableViewCell.m; sourceTree = "<group>"; };
+		44789493216D9895002CB3C4 /* ShiPuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiPuViewController.h; sourceTree = "<group>"; };
+		44789494216D9895002CB3C4 /* ShiPuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiPuViewController.m; sourceTree = "<group>"; };
+		44789496216D999B002CB3C4 /* ShiPuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiPuTableViewCell.h; sourceTree = "<group>"; };
+		44789497216D999B002CB3C4 /* ShiPuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiPuTableViewCell.m; sourceTree = "<group>"; };
+		44789499216D9ABF002CB3C4 /* ShiPuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiPuModel.h; sourceTree = "<group>"; };
+		4478949A216D9ABF002CB3C4 /* ShiPuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiPuModel.m; sourceTree = "<group>"; };
+		4478949F216DA31A002CB3C4 /* ShiPuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiPuDetailViewController.h; sourceTree = "<group>"; };
+		447894A0216DA31A002CB3C4 /* ShiPuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiPuDetailViewController.m; sourceTree = "<group>"; };
+		447894A2216DAEA9002CB3C4 /* zanwu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zanwu.png; sourceTree = "<group>"; };
+		7F57FCECE60ADDB5AC2691FF /* Pods-menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menu.release.xcconfig"; path = "Pods/Target Support Files/Pods-menu/Pods-menu.release.xcconfig"; sourceTree = "<group>"; };
+		B07F91F872454696B38AC5C6 /* Pods-menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-menu/Pods-menu.debug.xcconfig"; sourceTree = "<group>"; };
+		E19D83DB8A0A469EC88465E8 /* libPods-menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB301CD83F01FBC86F85EBED /* libPods-menu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AE597E9DEB02ABAAC4F5882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E19D83DB8A0A469EC88465E8 /* libPods-menu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44789421216C5CCC002CB3C4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				44789445216C5CD9002CB3C4 /* menuTests */,
 				44789450216C5CD9002CB3C4 /* menuUITests */,
 				4478942B216C5CCC002CB3C4 /* Products */,
+				5AF7F6AB18B43171A3FCE80E /* Pods */,
+				1AE597E9DEB02ABAAC4F5882 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +161,11 @@
 		4478942C216C5CCC002CB3C4 /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				447894A2216DAEA9002CB3C4 /* zanwu.png */,
+				44789480216C8D00002CB3C4 /* view */,
+				4478947C216C8A2E002CB3C4 /* Model */,
+				4478947A216C8A20002CB3C4 /* Controller */,
+				4478945F216C5FCA002CB3C4 /* tool */,
 				4478942D216C5CCC002CB3C4 /* AppDelegate.h */,
 				4478942E216C5CCC002CB3C4 /* AppDelegate.m */,
 				44789430216C5CCC002CB3C4 /* ViewController.h */,
@@ -110,6 +175,9 @@
 				44789438216C5CD8002CB3C4 /* LaunchScreen.storyboard */,
 				4478943B216C5CD8002CB3C4 /* Info.plist */,
 				4478943C216C5CD8002CB3C4 /* main.m */,
+				44789472216C8122002CB3C4 /* HttpTool.h */,
+				44789473216C8122002CB3C4 /* HttpTool.m */,
+				44789476216C8356002CB3C4 /* Header.h */,
 			);
 			path = menu;
 			sourceTree = "<group>";
@@ -132,6 +200,69 @@
 			path = menuUITests;
 			sourceTree = "<group>";
 		};
+		4478945F216C5FCA002CB3C4 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				44789470216C7C1A002CB3C4 /* YQNetworkTools.h */,
+				4478946F216C7C1A002CB3C4 /* YQNetworkTools.m */,
+				4478948D216C9CFE002CB3C4 /* CZHTool.h */,
+				4478948E216C9CFE002CB3C4 /* CZHTool.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		4478947A216C8A20002CB3C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44789484216C975A002CB3C4 /* kindsDetailViewController.h */,
+				44789485216C975A002CB3C4 /* kindsDetailViewController.m */,
+				44789493216D9895002CB3C4 /* ShiPuViewController.h */,
+				44789494216D9895002CB3C4 /* ShiPuViewController.m */,
+				4478949F216DA31A002CB3C4 /* ShiPuDetailViewController.h */,
+				447894A0216DA31A002CB3C4 /* ShiPuDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4478947C216C8A2E002CB3C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44789477216C846A002CB3C4 /* CategoryInfoModel.h */,
+				44789478216C846A002CB3C4 /* CategoryInfoModel.m */,
+				4478947D216C8A6E002CB3C4 /* MenuKindsModel.h */,
+				4478947E216C8A6E002CB3C4 /* MenuKindsModel.m */,
+				44789499216D9ABF002CB3C4 /* ShiPuModel.h */,
+				4478949A216D9ABF002CB3C4 /* ShiPuModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44789480216C8D00002CB3C4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				44789481216C8D18002CB3C4 /* MenuKindsCollectionViewCell.h */,
+				44789482216C8D18002CB3C4 /* MenuKindsCollectionViewCell.m */,
+				44789487216C999A002CB3C4 /* KindDetailImageTableViewCell.h */,
+				44789488216C999A002CB3C4 /* KindDetailImageTableViewCell.m */,
+				4478948A216C9B23002CB3C4 /* KindDetailTextTableViewCell.h */,
+				4478948B216C9B23002CB3C4 /* KindDetailTextTableViewCell.m */,
+				44789490216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.h */,
+				44789491216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.m */,
+				44789496216D999B002CB3C4 /* ShiPuTableViewCell.h */,
+				44789497216D999B002CB3C4 /* ShiPuTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5AF7F6AB18B43171A3FCE80E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B07F91F872454696B38AC5C6 /* Pods-menu.debug.xcconfig */,
+				7F57FCECE60ADDB5AC2691FF /* Pods-menu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44789456216C5CD9002CB3C4 /* Build configuration list for PBXNativeTarget "menu" */;
 			buildPhases = (
+				7645DFCFEEEF4894CD5B1DC0 /* [CP] Check Pods Manifest.lock */,
 				44789426216C5CCC002CB3C4 /* Sources */,
 				44789427216C5CCC002CB3C4 /* Frameworks */,
 				44789428216C5CCC002CB3C4 /* Resources */,
+				CF36A465606B28D07967F3A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4478943A216C5CD8002CB3C4 /* LaunchScreen.storyboard in Resources */,
+				447894A3216DAEA9002CB3C4 /* zanwu.png in Resources */,
 				44789437216C5CD8002CB3C4 /* Assets.xcassets in Resources */,
 				44789435216C5CCC002CB3C4 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +391,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7645DFCFEEEF4894CD5B1DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-menu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF36A465606B28D07967F3A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-menu/Pods-menu-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-menu/Pods-menu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44789426216C5CCC002CB3C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44789471216C7C1A002CB3C4 /* YQNetworkTools.m in Sources */,
+				4478949B216D9ABF002CB3C4 /* ShiPuModel.m in Sources */,
+				44789479216C846A002CB3C4 /* CategoryInfoModel.m in Sources */,
+				44789489216C999A002CB3C4 /* KindDetailImageTableViewCell.m in Sources */,
 				44789432216C5CCC002CB3C4 /* ViewController.m in Sources */,
+				44789495216D9895002CB3C4 /* ShiPuViewController.m in Sources */,
+				4478948C216C9B23002CB3C4 /* KindDetailTextTableViewCell.m in Sources */,
 				4478943D216C5CD8002CB3C4 /* main.m in Sources */,
+				44789492216C9E20002CB3C4 /* KindDetailTextImageTableViewCell.m in Sources */,
+				44789486216C975A002CB3C4 /* kindsDetailViewController.m in Sources */,
 				4478942F216C5CCC002CB3C4 /* AppDelegate.m in Sources */,
+				44789483216C8D18002CB3C4 /* MenuKindsCollectionViewCell.m in Sources */,
+				44789474216C8122002CB3C4 /* HttpTool.m in Sources */,
+				447894A1216DA31A002CB3C4 /* ShiPuDetailViewController.m in Sources */,
+				4478947F216C8A6E002CB3C4 /* MenuKindsModel.m in Sources */,
+				44789498216D999B002CB3C4 /* ShiPuTableViewCell.m in Sources */,
+				4478948F216C9CFE002CB3C4 /* CZHTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,33 +630,73 @@
 		};
 		44789457216C5CD9002CB3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07F91F872454696B38AC5C6 /* Pods-menu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 222Q4QC8FN;
 				INFOPLIST_FILE = menu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = CZH.menu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		44789458216C5CD9002CB3C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F57FCECE60ADDB5AC2691FF /* Pods-menu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 222Q4QC8FN;
 				INFOPLIST_FILE = menu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = CZH.menu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
