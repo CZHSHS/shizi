@@ -15,6 +15,7 @@
 #import "MenuKindsCollectionViewCell.h"
 #import <MJRefresh.h>
 #import "kindsDetailViewController.h"
+#import <SVProgressHUD.h>
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UITableView * tableView;
 @property(nonatomic,strong)NSMutableArray * dataSource;
@@ -68,9 +69,9 @@
 }
 -(void)getMenuInfo:(NSString *)cid{
     [HttpTool getWithURLString:[NSString stringWithFormat:@"http://apicloud.mob.com/v1/cook/menu/search?key=28265b5a61274&cid=%@&page=%d&size=20",cid,self.page] parameters:@{} success:^(id data_dic) {
-        NSLog(@"%@",[NSString stringWithFormat:@"http://apicloud.mob.com/v1/cook/menu/search?key=28265b5a61274&cid=%@&page=%d&size=20",cid,self.page]);
+//        NSLog(@"%@",[NSString stringWithFormat:@"http://apicloud.mob.com/v1/cook/menu/search?key=28265b5a61274&cid=%@&page=%d&size=20",cid,self.page]);
         NSDictionary * dic = data_dic;
-        NSLog(@"%@",dic);
+//        NSLog(@"%@",dic);
         NSString * retCode = dic[@"retCode"];
         if ([retCode isEqualToString:@"200"]) {
             NSArray * kinds_arr = dic[@"result"][@"list"];
@@ -85,6 +86,8 @@
             }
         }else{
             NSLog(@"%@",data_dic[@"msg"]);
+            [SVProgressHUD showErrorWithStatus:data_dic[@"msg"]];
+            
         }
     } failure:^(NSError * _Nonnull error) {
         

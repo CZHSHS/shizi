@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4478942F216C5CCC002CB3C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478942E216C5CCC002CB3C4 /* AppDelegate.m */; };
 		44789432216C5CCC002CB3C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44789431216C5CCC002CB3C4 /* ViewController.m */; };
-		44789435216C5CCC002CB3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44789433216C5CCC002CB3C4 /* Main.storyboard */; };
 		44789437216C5CD8002CB3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44789436216C5CD8002CB3C4 /* Assets.xcassets */; };
 		4478943A216C5CD8002CB3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44789438216C5CD8002CB3C4 /* LaunchScreen.storyboard */; };
 		4478943D216C5CD8002CB3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478943C216C5CD8002CB3C4 /* main.m */; };
@@ -30,6 +29,8 @@
 		4478949B216D9ABF002CB3C4 /* ShiPuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478949A216D9ABF002CB3C4 /* ShiPuModel.m */; };
 		447894A1216DA31A002CB3C4 /* ShiPuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447894A0216DA31A002CB3C4 /* ShiPuDetailViewController.m */; };
 		447894A3216DAEA9002CB3C4 /* zanwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 447894A2216DAEA9002CB3C4 /* zanwu.png */; };
+		447894AA216DD797002CB3C4 /* yome_service_publish_upload_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 447894A8216DD797002CB3C4 /* yome_service_publish_upload_btn@2x.png */; };
+		447894AB216DD797002CB3C4 /* yome_service_publish_upload_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 447894A9216DD797002CB3C4 /* yome_service_publish_upload_btn@3x.png */; };
 		EB301CD83F01FBC86F85EBED /* libPods-menu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D83DB8A0A469EC88465E8 /* libPods-menu.a */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +57,6 @@
 		4478942E216C5CCC002CB3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44789430216C5CCC002CB3C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		44789431216C5CCC002CB3C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		44789434216C5CCC002CB3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44789436216C5CD8002CB3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44789439216C5CD8002CB3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4478943B216C5CD8002CB3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +97,8 @@
 		4478949F216DA31A002CB3C4 /* ShiPuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiPuDetailViewController.h; sourceTree = "<group>"; };
 		447894A0216DA31A002CB3C4 /* ShiPuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiPuDetailViewController.m; sourceTree = "<group>"; };
 		447894A2216DAEA9002CB3C4 /* zanwu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zanwu.png; sourceTree = "<group>"; };
+		447894A8216DD797002CB3C4 /* yome_service_publish_upload_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yome_service_publish_upload_btn@2x.png"; sourceTree = "<group>"; };
+		447894A9216DD797002CB3C4 /* yome_service_publish_upload_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yome_service_publish_upload_btn@3x.png"; sourceTree = "<group>"; };
 		7F57FCECE60ADDB5AC2691FF /* Pods-menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menu.release.xcconfig"; path = "Pods/Target Support Files/Pods-menu/Pods-menu.release.xcconfig"; sourceTree = "<group>"; };
 		B07F91F872454696B38AC5C6 /* Pods-menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-menu/Pods-menu.debug.xcconfig"; sourceTree = "<group>"; };
 		E19D83DB8A0A469EC88465E8 /* libPods-menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +163,8 @@
 		4478942C216C5CCC002CB3C4 /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				447894A8216DD797002CB3C4 /* yome_service_publish_upload_btn@2x.png */,
+				447894A9216DD797002CB3C4 /* yome_service_publish_upload_btn@3x.png */,
 				447894A2216DAEA9002CB3C4 /* zanwu.png */,
 				44789480216C8D00002CB3C4 /* view */,
 				4478947C216C8A2E002CB3C4 /* Model */,
@@ -170,7 +174,6 @@
 				4478942E216C5CCC002CB3C4 /* AppDelegate.m */,
 				44789430216C5CCC002CB3C4 /* ViewController.h */,
 				44789431216C5CCC002CB3C4 /* ViewController.m */,
-				44789433216C5CCC002CB3C4 /* Main.storyboard */,
 				44789436216C5CD8002CB3C4 /* Assets.xcassets */,
 				44789438216C5CD8002CB3C4 /* LaunchScreen.storyboard */,
 				4478943B216C5CD8002CB3C4 /* Info.plist */,
@@ -368,10 +371,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447894AA216DD797002CB3C4 /* yome_service_publish_upload_btn@2x.png in Resources */,
+				447894AB216DD797002CB3C4 /* yome_service_publish_upload_btn@3x.png in Resources */,
 				4478943A216C5CD8002CB3C4 /* LaunchScreen.storyboard in Resources */,
 				447894A3216DAEA9002CB3C4 /* zanwu.png in Resources */,
 				44789437216C5CD8002CB3C4 /* Assets.xcassets in Resources */,
-				44789435216C5CCC002CB3C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,14 +501,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		44789433216C5CCC002CB3C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44789434216C5CCC002CB3C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44789438216C5CD8002CB3C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -633,6 +629,7 @@
 			baseConfigurationReference = B07F91F872454696B38AC5C6 /* Pods-menu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 222Q4QC8FN;
 				INFOPLIST_FILE = menu/Info.plist;
@@ -658,7 +655,7 @@
 					"\"SystemConfiguration\"",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CZH.menu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menu.nov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -669,6 +666,7 @@
 			baseConfigurationReference = 7F57FCECE60ADDB5AC2691FF /* Pods-menu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 222Q4QC8FN;
 				INFOPLIST_FILE = menu/Info.plist;
@@ -694,7 +692,7 @@
 					"\"SystemConfiguration\"",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CZH.menu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menu.nov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

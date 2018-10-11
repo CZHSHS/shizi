@@ -20,6 +20,7 @@
 @property(nonatomic,copy)NSString * ID;
 @property(nonatomic,strong)UIPickerView * pickerView;
 @property(nonatomic,strong)NSArray * type_arr;
+@property(nonatomic,strong)UIView * picker_back_view;
 @end
 
 @implementation ShiPuViewController
@@ -27,6 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"yome_service_publish_upload_btn"] forBarMetrics:0];
     self.title = @"饮食资讯";
     self.ID = @"135";
     [self creatUI];
@@ -38,11 +40,23 @@
     [self creatPicker];
 }
 -(void)creatPicker{
-    self.pickerView = [[UIPickerView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.view.frame), self.view.frame.size.width, 300)];
+    
+    [self.view addSubview:self.picker_back_view];
+    self.picker_back_view.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
+    UITapGestureRecognizer *tapGesturRecognizer=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(picker_back_viewClicked)];
+    [self.picker_back_view addGestureRecognizer:tapGesturRecognizer];
+    self.picker_back_view.userInteractionEnabled=YES;
+    
+    self.pickerView = [[UIPickerView alloc]initWithFrame:CGRectMake(0, self.picker_back_view.frame.size.height-200, self.picker_back_view.frame.size.width, 200)];
     self.pickerView.delegate = self;
     self.pickerView.dataSource = self;
     self.pickerView.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.pickerView];
+    [self.picker_back_view addSubview:self.pickerView];
+}
+-(void)picker_back_viewClicked{
+    [UIView animateWithDuration:0.3 animations:^{
+        self.picker_back_view.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
+    }];
 }
 -(void)creatPickerDataSource{
     self.type_arr = @[@"养生",@"减肥",@"气功",@"美容",@"瘦身",@"健身",@"日料"];
@@ -58,7 +72,7 @@
 }
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    NSLog(@"%@",[self.type_arr objectAtIndex:row]);
+//    NSLog(@"%@",[self.type_arr objectAtIndex:row]);
     switch (row) {
         case 0:
             //养生
@@ -112,7 +126,7 @@
 }
 -(void)moreInfo{
     [UIView animateWithDuration:0.3 animations:^{
-        self.pickerView.frame = CGRectMake(0, CGRectGetMaxY(self.view.frame)-300, self.view.frame.size.width, 300);
+        self.picker_back_view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     }];
 }
 -(void)releaseInfo{
@@ -133,20 +147,20 @@
             [self.tableView reloadData];
             [SVProgressHUD dismiss];
         }else{
-            NSLog(@"%@",dic[@"error"]);
+//            NSLog(@"%@",dic[@"error"]);
             [SVProgressHUD showErrorWithStatus:dic[@"error"]];
         }
         [UIView animateWithDuration:0.3 animations:^{
-            self.pickerView.frame = CGRectMake(0, CGRectGetMaxY(self.view.frame), self.view.frame.size.width, 300);
+            self.picker_back_view.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
         }];
     } failure:^(NSError * _Nonnull error) {
         [UIView animateWithDuration:0.3 animations:^{
-            self.pickerView.frame = CGRectMake(0, CGRectGetMaxY(self.view.frame), self.view.frame.size.width, 300);
+            self.picker_back_view.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
         }];
     }];
 }
 -(void)creatUI{
-    self.tableView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    self.tableView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-64);
     [self.view addSubview:self.tableView];
     
 }
@@ -186,6 +200,13 @@
         _dataSource = [NSMutableArray new];
     }
     return _dataSource;
+}
+-(UIView *)picker_back_view{
+    if (_picker_back_view == nil) {
+        _picker_back_view = [[UIView alloc]init];
+        _picker_back_view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
+    }
+    return _picker_back_view;
 }
 /*
 #pragma mark - Navigation
