@@ -81,9 +81,12 @@
                 [self.kinds_dataSource addObject:model];
             }
             [self.collectionView reloadData];
-            if (self.page == 0) {
-                [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0] atScrollPosition:UICollectionViewScrollPositionTop animated:YES];
-            }
+//            if (self.page == 0) {
+//                [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0] atScrollPosition:UICollectionViewScrollPositionTop animated:YES];
+//            }
+//            [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:self.dataSource.count-1 inSection:0] atScrollPosition:UICollectionViewScrollPositionTop animated:YES];
+            CGPoint bottomOffset = CGPointMake(0, self.collectionView.contentSize.height - self.collectionView.bounds.size.height);
+            [self.collectionView setContentOffset:bottomOffset animated:YES];
         }else{
             NSLog(@"%@",data_dic[@"msg"]);
             [SVProgressHUD showErrorWithStatus:data_dic[@"msg"]];
@@ -109,6 +112,8 @@
         [self getMenuInfo:self.cid];
         [self.collectionView.mj_footer endRefreshing];
     }];
+    
+    
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return self.dataSource.count;
